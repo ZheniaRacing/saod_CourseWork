@@ -1,7 +1,6 @@
 #pragma once
 #include <iostream>;
 #include "Row.h";
-#include "Cell.h";
 
 class CompRows
 {
@@ -56,8 +55,8 @@ std::string CompRows::GetString()
 
 bool CompRows::PushRow(int _nBuild)
 {
-	Cell * classR = new Cell(_nBuild);
-	return rows->Push(classR);
+	
+	return rows->Push(_nBuild);
 }
 
 int CompRows::FindRow(int _nBuild)

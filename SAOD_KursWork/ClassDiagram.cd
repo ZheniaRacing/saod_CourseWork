@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="Cell">
+    <Position X="8.75" Y="7.5" Width="3.25" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Struct Name="Cell::ClassR" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Cell.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AARABAAAAAAAAAAAAABABAAAAACAAAIAAACAgAAAiAA=</HashCode>
+      <FileName>Cell.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CompRows">
+    <Position X="3" Y="0.5" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>AIAABAABFAAAAAAACABABAAAAABEAAAEBAAAQAEABAA=</HashCode>
+      <FileName>CompRows.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Storage">
+    <Position X="9.25" Y="0.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAACAAAAQAAAAAAAAAAEAAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>FileStorage.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Row">
+    <Position X="3.75" Y="7.5" Width="2.25" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Struct Name="Row::EduBuild" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Row.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>QABABAAABAACAAAAAABABAAAAACIAgAIAAAAAAAACAA=</HashCode>
+      <FileName>Row.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

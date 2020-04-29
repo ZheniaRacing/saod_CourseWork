@@ -18,7 +18,7 @@ public:
 	~Row();
 	bool Pop();
 	int Find(int _nBuild);
-	bool Push(Cell *_classRooms);
+	bool Push(int _nBuild);
 	Cell * GetCell(int n);
 	int FindCell(int key);
 	bool IsFull();
@@ -103,7 +103,7 @@ bool Row::IsFull()
 		return false;
 }
 
-bool Row::Push(Cell *_classRooms)
+bool Row::Push(int _nBuild)
 {
 	if (IsFull())
 	{
@@ -111,7 +111,8 @@ bool Row::Push(Cell *_classRooms)
 	}
 	else
 	{
-		queue->classRooms[queue->tail] = _classRooms;
+		Cell * classR = new Cell(_nBuild);
+		queue->classRooms[queue->tail] = classR;
 		if (queue->tail == ARR_SIZE - 1)
 			queue->tail = 0;
 		else
